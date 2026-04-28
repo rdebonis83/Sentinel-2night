@@ -1,0 +1,211 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Feature",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json"
+  ],
+  "id": "S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224.zip",
+  "collection": "sentinel-2-night-time-sensor-geometry",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.033817057,
+          139.063773059
+        ],
+        [
+          35.187844191,
+          139.334855885
+        ],
+        [
+          35.236922161,
+          139.625212985
+        ],
+        [
+          35.238334682,
+          139.624767879
+        ],
+        [
+          35.286866804,
+          139.893621651
+        ],
+        [
+          35.498509846,
+          139.827586851
+        ],
+        [
+          35.498601745,
+          139.82755817
+        ],
+        [
+          35.710324981,
+          139.761310925
+        ],
+        [
+          35.921897247,
+          139.694725946
+        ],
+        [
+          35.921989098,
+          139.69469695
+        ],
+        [
+          36.133550777,
+          139.627877162
+        ],
+        [
+          36.082139597,
+          139.342320146
+        ],
+        [
+          36.080932303,
+          139.342703341
+        ],
+        [
+          36.033817057,
+          139.063773059
+        ],
+        [
+          36.325448097,
+          140.655202475
+        ],
+        [
+          35.477414833,
+          140.910302024
+        ],
+        [
+          35.532344472,
+          141.18183183
+        ],
+        [
+          35.533646574,
+          141.181447095
+        ],
+        [
+          35.586161783,
+          141.436888607
+        ],
+        [
+          35.79826555,
+          141.374889871
+        ],
+        [
+          35.798357651,
+          141.374862924
+        ],
+        [
+          36.010524736,
+          141.312624368
+        ],
+        [
+          36.222567016,
+          141.250163767
+        ],
+        [
+          36.222659076,
+          141.250136563
+        ],
+        [
+          36.434680852,
+          141.187438855
+        ],
+        [
+          36.378490574,
+          140.912576536
+        ],
+        [
+          36.377318105,
+          140.912925332
+        ],
+        [
+          36.325448097,
+          140.655202475
+        ],
+        [
+          36.033817057,
+          139.063773059
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    35.187844191,
+    139.063773059,
+    36.434680852,
+    141.436888607
+  ],
+  "properties": {
+    "created": "2026-02-03T15:51:54.000Z",
+    "expires": "2026-03-03T16:10:32.568Z",
+    "updated": "2026-02-03T16:10:32.568Z",
+    "published": "2026-02-03T16:10:32.568Z",
+    "datetime": "2025-12-11T12:42:09.000Z",
+    "start_datetime": "2025-12-11T12:42:09.000Z",
+    "end_datetime": "2025-12-11T12:42:24.285Z",
+    "title": "S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224.zip",
+    "platform": "sentinel-2a",
+    "constellation": "sentinel-2",
+    "instruments": [
+      "msi"
+    ],
+    "processing:level": "L1",
+    "product:type": "S2MSI1B",
+    "sat:relative_orbit": 38,
+    "_private": {
+      "visible": true,
+      "product_name": "S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224",
+      "product_size": 130424083
+    }
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224.zip.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "enclosure",
+      "href": "https://opt-mpc.acri-st.fr/odata/v1/Products(f8676c9e-63a2-445a-b52e-651d51cf498d)/$value",
+      "type": "application/zip",
+      "title": "OData product endpoint",
+      "auth:refs": [
+        "oidc"
+      ]
+    }
+  ],
+  "assets": {
+    "Product": {
+      "href": "../../odata_products/S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224.zip",
+      "type": "application/zip",
+      "title": "Zipped product",
+      "roles": [
+        "data",
+        "metadata",
+        "archive"
+      ],
+      "file:size": 130424083,
+      "file:checksum": "376c46e2cc11d3f0d12e4dfba8ef7240",
+      "file:local_path": "S2A_OPER_PRD_MSIL1B_PDMC_20251212T151351_R038_V20251211T124209_20251211T124224.zip"
+    }
+  }
+}

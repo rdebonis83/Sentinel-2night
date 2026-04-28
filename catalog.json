@@ -1,0 +1,26 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "sentinel-2-night-acquisitions",
+  "title": "Sentinel-2 night acquisitions",
+  "description": "Catalog for Sentinel-2 night acquisitions.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./sensor-geometri-products/collection.json",
+      "type": "application/json",
+      "title": "Sensor geometri products"
+    },
+    {
+      "rel": "child",
+      "href": "./sen2vm-ortho-products/collection.json",
+      "type": "application/json",
+      "title": "SEN2VM-ORTHO products"
+    }
+  ]
+}
