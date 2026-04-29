@@ -4,14 +4,6 @@
   "id": "sentinel-2-night-acquisitions",
   "title": "Sentinel-2 night acquisitions",
   "description": "ESA is investigating the Sentinel-2 potential",
-  "assets": {
-    "thumbnail": {
-      "href": "./images/night-campaign-acquisitions.png",
-      "type": "image/png",
-      "roles": ["thumbnail"],
-      "title": "Sentinel-2 night campaign acquisitions overview"
-    }
-  },
   "links": [
     {
       "rel": "self",
