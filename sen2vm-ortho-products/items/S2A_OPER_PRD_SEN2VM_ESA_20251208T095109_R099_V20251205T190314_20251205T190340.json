@@ -1,0 +1,434 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Feature",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json"
+  ],
+  "id": "S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340",
+  "collection": "sen2vm-ortho-products",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          44.935659229,
+          31.011502437
+        ],
+        [
+          45.365354455,
+          29.525520589
+        ],
+        [
+          45.638185955,
+          29.572053574
+        ],
+        [
+          45.637685136,
+          29.573822914
+        ],
+        [
+          45.872824853,
+          29.616914896
+        ],
+        [
+          45.873358288,
+          29.615035062
+        ],
+        [
+          46.13579913,
+          29.663132131
+        ],
+        [
+          46.135301632,
+          29.664921927
+        ],
+        [
+          46.363517192,
+          29.709010143
+        ],
+        [
+          46.364065965,
+          29.707039689
+        ],
+        [
+          46.62067399,
+          29.757374745
+        ],
+        [
+          46.620203291,
+          29.759100649
+        ],
+        [
+          46.845497998,
+          29.804828106
+        ],
+        [
+          46.845990948,
+          29.803024545
+        ],
+        [
+          47.101057009,
+          29.856295669
+        ],
+        [
+          47.100600063,
+          29.858002428
+        ],
+        [
+          47.326462838,
+          29.906083858
+        ],
+        [
+          47.327011321,
+          29.904038807
+        ],
+        [
+          47.584596142,
+          29.961178556
+        ],
+        [
+          47.584118497,
+          29.962996541
+        ],
+        [
+          47.81428194,
+          30.014251217
+        ],
+        [
+          47.814824321,
+          30.01218954
+        ],
+        [
+          48.079236122,
+          30.07423429
+        ],
+        [
+          48.078749659,
+          30.076121947
+        ],
+        [
+          48.329696607,
+          30.13457867
+        ],
+        [
+          48.275371625,
+          30.34754584
+        ],
+        [
+          48.220788077,
+          30.560557401
+        ],
+        [
+          48.166053914,
+          30.77353211
+        ],
+        [
+          48.166030096,
+          30.773624537
+        ],
+        [
+          48.11115105,
+          30.986567441
+        ],
+        [
+          48.056119827,
+          31.199481152
+        ],
+        [
+          48.000949731,
+          31.412277957
+        ],
+        [
+          47.945574326,
+          31.625147778
+        ],
+        [
+          47.672027084,
+          31.56214678
+        ],
+        [
+          47.672482516,
+          31.560398896
+        ],
+        [
+          47.43616287,
+          31.505539717
+        ],
+        [
+          47.435699158,
+          31.507285207
+        ],
+        [
+          47.171552462,
+          31.449042825
+        ],
+        [
+          47.171985434,
+          31.447413521
+        ],
+        [
+          46.941739469,
+          31.396820189
+        ],
+        [
+          46.941266988,
+          31.398563905
+        ],
+        [
+          46.681892127,
+          31.343821168
+        ],
+        [
+          46.682289301,
+          31.342354749
+        ],
+        [
+          46.454226617,
+          31.295098682
+        ],
+        [
+          46.453803332,
+          31.296631297
+        ],
+        [
+          46.195101091,
+          31.244489432
+        ],
+        [
+          46.195497816,
+          31.243051842
+        ],
+        [
+          45.966015121,
+          31.198318667
+        ],
+        [
+          45.965530599,
+          31.200040496
+        ],
+        [
+          45.703420904,
+          31.149674768
+        ],
+        [
+          45.703829013,
+          31.148223453
+        ],
+        [
+          45.469335887,
+          31.105420057
+        ],
+        [
+          45.468852611,
+          31.107104958
+        ],
+        [
+          45.199049181,
+          31.057842807
+        ],
+        [
+          45.199459155,
+          31.056411704
+        ],
+        [
+          44.935659229,
+          31.011502437
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    44.935659229,
+    29.525520589,
+    48.329696607,
+    31.625147778
+  ],
+  "properties": {
+    "datetime": "2025-12-05T19:03:12Z",
+    "start_datetime": "2025-12-05T19:03:12Z",
+    "end_datetime": "2025-12-05T19:03:12Z",
+    "title": "S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340",
+    "platform": "sentinel-2a",
+    "constellation": "sentinel-2",
+    "instruments": [
+      "msi"
+    ],
+    "processing:level": "L1",
+    "product:type": "SEN2VM-ORTHO",
+    "orthorectified:file_count": 13,
+    "orthorectified:source_sensor_product": "S2A_OPER_PRD_MSIL1B_PDMC_20251208T095109_R099_V20251205T190314_20251205T190340.zip",
+    "orthorectified:delta_seconds": -2
+  },
+  "links": [
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "./S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "derived_from",
+      "href": "../../sensor-geometri-products/items/S2A_OPER_PRD_MSIL1B_PDMC_20251208T095109_R099_V20251205T190314_20251205T190340.zip.json",
+      "type": "application/geo+json",
+      "title": "Source sensor geometry item"
+    }
+  ],
+  "assets": {
+    "Orthorectified": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/",
+      "type": "application/x-directory",
+      "title": "Orthorectified outputs (S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340)",
+      "roles": [
+        "data"
+      ],
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/",
+      "orthorectified:prefix": "S2A_GEO_L1_S20251205T190312",
+      "orthorectified:file_count": 13
+    },
+    "S2A_GEO_L1_S20251205T190312_B01_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B01_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B01_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B01_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B02_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B02_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B02_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B02_CAL_MERGED.tif",
+      "file:size": 357308001
+    },
+    "S2A_GEO_L1_S20251205T190312_B03_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B03_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B03_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B03_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B04_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B04_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B04_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B04_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B05_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B05_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B05_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B05_CAL_MERGED.tif",
+      "file:size": 94606065
+    },
+    "S2A_GEO_L1_S20251205T190312_B06_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B06_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B06_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B06_CAL_MERGED.tif",
+      "file:size": 99631834
+    },
+    "S2A_GEO_L1_S20251205T190312_B07_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B07_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B07_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B07_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B08_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B08_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B08_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B08_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B09_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B09_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B09_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B09_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B10_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B10_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B10_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B10_CAL_MERGED.tif",
+      "file:size": 13604080
+    },
+    "S2A_GEO_L1_S20251205T190312_B11_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B11_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B11_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B11_CAL_MERGED.tif",
+      "file:size": 108786706
+    },
+    "S2A_GEO_L1_S20251205T190312_B12_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B12_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B12_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B12_CAL_MERGED.tif",
+      "file:size": 0
+    },
+    "S2A_GEO_L1_S20251205T190312_B8A_CAL_MERGED": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B8A_CAL_MERGED.tif",
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "data"
+      ],
+      "title": "S2A_GEO_L1_S20251205T190312_B8A_CAL_MERGED.tif",
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251208T095109_R099_V20251205T190314_20251205T190340/S2A_GEO_L1_S20251205T190312_B8A_CAL_MERGED.tif",
+      "file:size": 95931941
+    }
+  }
+}
