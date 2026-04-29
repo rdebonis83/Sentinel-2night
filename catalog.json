@@ -4,6 +4,14 @@
   "id": "sentinel-2-night-acquisitions",
   "title": "Sentinel-2 night acquisitions",
   "description": "To explore the value of S2 data at night and to help define potential operational scenarios for S2NG, ESA took advantage of the temporary availability of S2A to perform an experimental night imaging campaign across two orbital cycles in December 2025. This campaign focused upon specific regions that were chosen via the user requests received during the operations of S2 mission and through analysis of potential regions of interest for S2NG. These regions of interest were primarily oil and gas facilities, cities and industrial areas, and maritime regions such as fishing zones and the Suez Canal.",
+  "assets": {
+    "thumbnail": {
+      "href": "./images/night-campaign-acquisitions.png",
+      "type": "image/png",
+      "roles": ["thumbnail"],
+      "title": "Sentinel-2 night campaign acquisitions overview"
+    }
+  },
   "links": [
     {
       "rel": "self",
