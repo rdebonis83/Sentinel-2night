@@ -19,12 +19,6 @@
       "type": "application/json"
     },
     {
-      "rel": "preview",
-      "href": "./images/night-campaign-acquisitions.png",
-      "type": "image/png",
-      "title": "Sentinel-2 night campaign acquisitions overview"
-    },
-    {
       "rel": "child",
       "href": "./sensor-geometri-products/collection.json",
       "type": "application/json",
