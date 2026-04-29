@@ -260,7 +260,12 @@
       "visible": true,
       "product_name": "S2A_OPER_PRD_MSIL1B_PDMC_20251217T084610_R116_V20251216T233218_20251216T233236",
       "product_size": 420305939
-    }
+    },
+    "orthorectified:aoi": "S2A_OPER_PRD_SEN2VM_ESA_20251217T084610_R116_V20251216T233218_20251216T233236",
+    "orthorectified:timestamp": "2025-12-16T23:32:16Z",
+    "orthorectified:delta_seconds": -2,
+    "orthorectified:file_count": 13,
+    "orthorectified:legacy_aoi": "AOI_45_NOM"
   },
   "links": [
     {
@@ -291,6 +296,12 @@
       "auth:refs": [
         "oidc"
       ]
+    },
+    {
+      "rel": "related",
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251217T084610_R116_V20251216T233218_20251216T233236/",
+      "type": "application/x-directory",
+      "title": "Orthorectified output folder"
     }
   ],
   "assets": {
@@ -306,6 +317,17 @@
       "file:size": 420305939,
       "file:checksum": "94b3e90704526d96fee259ca64a65eb6",
       "file:local_path": "S2A_OPER_PRD_MSIL1B_PDMC_20251217T084610_R116_V20251216T233218_20251216T233236.zip"
+    },
+    "Orthorectified": {
+      "href": "../../sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251217T084610_R116_V20251216T233218_20251216T233236/",
+      "type": "application/x-directory",
+      "title": "Orthorectified outputs (S2A_OPER_PRD_SEN2VM_ESA_20251217T084610_R116_V20251216T233218_20251216T233236)",
+      "roles": [
+        "data"
+      ],
+      "file:local_path": "sentinel-2-night-time-orthorectified/S2A_OPER_PRD_SEN2VM_ESA_20251217T084610_R116_V20251216T233218_20251216T233236/",
+      "orthorectified:prefix": "S2A_GEO_L1_S20251216T233216",
+      "orthorectified:file_count": 13
     }
   }
 }
