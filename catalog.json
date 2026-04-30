@@ -20,7 +20,7 @@
       "href": "./sen2vm-ortho-products/collection.json",
       "type": "application/json",
       "title": "SEN2VM-ORTHO products"
-    },
+    }
   ],
     "assets": {
     "thumbnail": {
