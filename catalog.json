@@ -8,7 +8,7 @@
     "thumbnail": {
       "href": "./images/night-campaign-acquisitions.png",
       "type": "image/png",
-      "roles": ["thumbnail"],
+      "roles": ["overview"],
       "title": "Sentinel-2 night campaign acquisitions overview"
     }
   },
